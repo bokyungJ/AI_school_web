@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="userid">아이디</label>
+        <input
+        id = "userid"
+        name="userid"
+        placeholder="아이디를 입력하세요"
+        type="text"
+        />
+        <br/>
+        <label for='userpw'>비밀번호</label>
+        <input
+        id="userpw"
+        name="userpw"
+        placeholder="비밀번호를 입력하세요"
+        type="text"
+        />
+        <br/>
+        <label for="pwhint">비밀번호 질문</label>
+        <select name='hint'>
+            <option value='좋아하는 운동'>좋아하는 운동은?</option>
+            <option value="좋아하는 여행지">좋아하는 여행지는?</option>
+        </select>
+        <input
+        id='pwhint'
+        name='pwhint'
+        placeholder="답을 입력하세요"
+        type='text'
+        />
+        <br/>
+        자기소개 작성
+        <br/>
+        <textarea name = 'info' cols='30' rows='10'>
+            자기소개를 입력하세요
+        </textarea>
+        <br/>
+        <button name='전송' type='submit'>
+            전송하기
+        </button>
+    </form>
+</body>
+</html>
